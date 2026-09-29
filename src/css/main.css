@@ -1,0 +1,136 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global Styles */
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5865f2;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7289da;
+}
+
+/* Placeholder Styling */
+::placeholder {
+    color: rgb(219, 219, 219);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: rgb(219, 219, 219);
+}
+
+::-ms-input-placeholder {
+    color: rgb(219, 219, 219);
+}
+
+/* Gradient Glow */
+.gradient-glow {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    box-shadow: 0 0 30px rgba(88, 101, 242, 0.2);
+}
+
+/* Button Styles */
+.btn-primary {
+    background: linear-gradient(135deg, #5865f2 0%, #4752c4 100%);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #6d77ff 0%, #5560d9 100%);
+    box-shadow: 0 0 20px rgba(88, 101, 242, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(88, 101, 242, 0.5);
+}
+
+/* Feature Card */
+.feature-card {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.8) 100%);
+    border: 1px solid rgba(100, 116, 139, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    border-color: rgba(88, 101, 242, 0.4);
+    background: linear-gradient(135deg, rgba(30, 41, 59, 1) 0%, rgba(15, 23, 42, 1) 100%);
+    box-shadow: 0 0 30px rgba(88, 101, 242, 0.1);
+    transform: translateY(-5px);
+}
+
+/* Stat Card */
+.stat-card {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.6) 100%);
+    border: 1px solid rgba(100, 116, 139, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Section Title */
+.section-title {
+    background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Step Number */
+.step-number {
+    background: linear-gradient(135deg, #5865f2 0%, #4752c4 100%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Command Card */
+.command-card {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.6) 100%);
+    border: 1px solid rgba(100, 116, 139, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.command-card:hover {
+    border-color: rgba(88, 101, 242, 0.4);
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.8) 100%);
+    box-shadow: 0 0 20px rgba(88, 101, 242, 0.1);
+}
+
+/* Category Badge */
+.category-badge {
+    background: linear-gradient(135deg, #5865f2 0%, #4752c4 100%);
+}
+
+/* Permission Badge */
+.permission-badge {
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(239, 68, 68, 0.5);
+  }
