@@ -1,1 +1,0 @@
-window.OpenUtilityAuth={API:"https://openutility-bot-backend.vercel.app/api"};
