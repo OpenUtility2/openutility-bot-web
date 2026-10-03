@@ -16,7 +16,7 @@ html,body{margin:0;background:#060910;color:#fff;font-family:system-ui,sans-seri
     const r=await fetch('../dashboard-core.html',{cache:'no-store'});
     if(!r.ok) throw new Error('Dashboard could not be loaded.');
     const html=await r.text();
-    const polished=html.replace('</body>','<script src="../dashboard-polish.js"><\\/script><script src="../dashboard-v4.js"><\\/script></body>');
+    const polished=html.replace('</body>','<script src="../dashboard-polish.js"><\\/script><script src="../dashboard-v4.js"><\\/script><script src="../dashboard-v4-patch.js"><\\/script></body>');
     document.open(); document.write(polished); document.close();
   }catch(e){document.body.innerHTML='<div class="err"><h2>Dashboard unavailable</h2><p>'+String(e.message).replace(/[<>]/g,'')+'</p><button onclick="location.reload()">Try again</button></div>';}
 })();
